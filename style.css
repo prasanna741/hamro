@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul 
+{
+    list-style: none;
+}
+body 
+{
+      font-family: "Mukta", sans-serif;
+}
+header 
+{
+    padding: 15px 0;
+}
+.con 
+{
+    width: 1200px;
+    margin: auto;
+}
+nav 
+{
+    background: brown;
+    color: #fff;
+    padding: 10px 0;
+}
+nav ul 
+{
+    display: flex;
+    gap: 20px;
+}
+.banner
+{
+    padding: 20px 0;
+    text-align: center;
+}
+.banner h1 
+{
+    font-size: 55px;
+    text-align: center;
+}
+.banner img 
+{
+    width: 700px;
+    margin: auto;
+}
+.flex1
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.flex1-l
+{
+    width: 50%;
+}
+.flex-wrap 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+.flex-wrap > div 
+{
+    width: 260px;
+}
